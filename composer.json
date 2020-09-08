@@ -1,0 +1,34 @@
+{
+    "name":"iiorka/disableAlias",
+    "description":"Contao extension to disable Alias",
+    "keywords":["contao", "alias", "site url"],
+    "type":"contao-module",
+    "homepage":"http://www.akroii.de",
+    "license":"LGPL-3.0-or-later",
+    "authors":[
+        {
+            "name":"Andreas Kroll",
+            "homepage":"http://www.akroii.de",
+            "email":"to@akroii.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "email":"to@akroii.de",
+        "issues":"https://github.com/akroii/disableAlias/issues",
+        "source":"https://github.com/akroii/disableAlias",
+        "forum":"https://community.contao.org/de"
+    },
+    "require":{
+        "php":">=5.4",
+        "contao/core-bundle":"~3.0 || ~4.2",
+        "contao-community-alliance/composer-plugin":"~2.4 || ~3.0"
+    },
+    "extra":{
+        "contao":{
+            "sources": {
+                "system/modules/lightcase":"system/modules/disableAlias"
+            }
+        }
+    }
+}
